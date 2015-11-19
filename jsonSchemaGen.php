@@ -11,14 +11,19 @@
 			
 		}
 		
+		/*
+			Generates and returns json schema
+		*/
 		function generate()
 		{
-			$this->schemaObject = $this->populateObject($this->jsonObject);
-			//echo count($this->jsonObject);
+			$this->schemaObject = $this->envokeProperty($this->jsonObject);
 			
 			return json_encode($this->schemaObject,JSON_PRETTY_PRINT);
 		}
 		
+		/*
+			returns schema of given value that can be jsonObject, jsonArray and json key
+		*/
 		private function envokeProperty($property)
 		{
 			$val = null;
@@ -36,6 +41,10 @@
 			return $val;
 		}
 		
+		
+		/*
+			Populate json object into json schema
+		*/
 		function populateObject($object)
 		{
 			
@@ -48,6 +57,9 @@
 			return $val;
 		}
 		
+		/*
+			Populate json array into json schema
+		*/
 		private function populateArray($array)
 		{
 			$val["type"] = "array";
@@ -61,6 +73,9 @@
 			return $val;
 		}
 		
+		/*
+			Populate json key into json schema
+		*/
 		private function populateKey($key)
 		{
 			$val["type"] = $this->getKeyType($key);;
@@ -68,6 +83,9 @@
 			return $val;
 		}
 		
+		/*
+			returns type of given value
+		*/
 		private function getKeyType($value)
 		{
 			if(is_string($value))
