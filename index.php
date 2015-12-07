@@ -1,17 +1,16 @@
-<?php 
-    include 'jsonSchemaGen.php';
+<html>
+	<head>
+		<title>
+			Table  of content
+		</title>
+	</head>
+	<body>
+		<div>
+			<ul>
+				<li><a href="generateSchema.php">Generate a new schema</a></li><br />
+				<li><a href="generateSchema.php">Generate a new form</a></li>
+			</ul>
+		</div>
+	</body>
+</html>
 
-	$fileName = "BehavioralFile.json";
-	$file = fopen($fileName,"r");
-	$content = fread($file,fileSize($fileName));
-	fclose($file);
-	$generater = new JsonSchemaGenerater(json_decode($content));
-	$stringOutput = $generater->indent($generater->generate());
-	$outputFile = "jsonSchema.json";
-	$out = fopen($outputFile,"w");
-	fwrite($out,$stringOutput);
-	fclose($out);
-	echo "<pre>";
-	echo $stringOutput;
-	echo "</pre>";
-?>

@@ -1562,7 +1562,11 @@
                                 },
                                 "textColor": {
                                     "type": "array",
-                                    "desc": ""
+                                    "desc": "",
+                                    "items": {
+                                        "type": "undefined",
+                                        "desc": ""
+                                    }
                                 },
                                 "fontSize": {
                                     "type": "int",
@@ -1696,7 +1700,11 @@
                                 },
                                 "radius": {
                                     "type": "array",
-                                    "desc": ""
+                                    "desc": "",
+                                    "items": {
+                                        "type": "undefined",
+                                        "desc": ""
+                                    }
                                 }
                             }
                         }
@@ -1896,7 +1904,11 @@
                         },
                         "rightViews": {
                             "type": "array",
-                            "desc": ""
+                            "desc": "",
+                            "items": {
+                                "type": "undefined",
+                                "desc": ""
+                            }
                         }
                     }
                 },
@@ -2950,7 +2962,11 @@
                         },
                         "rightViews": {
                             "type": "array",
-                            "desc": ""
+                            "desc": "",
+                            "items": {
+                                "type": "undefined",
+                                "desc": ""
+                            }
                         }
                     }
                 },
@@ -3072,7 +3088,11 @@
                         },
                         "rightViews": {
                             "type": "array",
-                            "desc": ""
+                            "desc": "",
+                            "items": {
+                                "type": "undefined",
+                                "desc": ""
+                            }
                         }
                     }
                 },
@@ -3326,11 +3346,19 @@
                     "properties": {
                         "leftViews": {
                             "type": "array",
-                            "desc": ""
+                            "desc": "",
+                            "items": {
+                                "type": "undefined",
+                                "desc": ""
+                            }
                         },
                         "rightViews": {
                             "type": "array",
-                            "desc": ""
+                            "desc": "",
+                            "items": {
+                                "type": "undefined",
+                                "desc": ""
+                            }
                         }
                     }
                 },
@@ -4598,7 +4626,11 @@
                         },
                         "rightViews": {
                             "type": "array",
-                            "desc": ""
+                            "desc": "",
+                            "items": {
+                                "type": "undefined",
+                                "desc": ""
+                            }
                         }
                     }
                 },
@@ -4688,7 +4720,11 @@
                         },
                         "rightViews": {
                             "type": "array",
-                            "desc": ""
+                            "desc": "",
+                            "items": {
+                                "type": "undefined",
+                                "desc": ""
+                            }
                         }
                     }
                 },
@@ -4832,7 +4868,11 @@
                         },
                         "rightViews": {
                             "type": "array",
-                            "desc": ""
+                            "desc": "",
+                            "items": {
+                                "type": "undefined",
+                                "desc": ""
+                            }
                         }
                     }
                 },
@@ -4940,7 +4980,11 @@
                         },
                         "rightViews": {
                             "type": "array",
-                            "desc": ""
+                            "desc": "",
+                            "items": {
+                                "type": "undefined",
+                                "desc": ""
+                            }
                         }
                     }
                 },
@@ -5290,7 +5334,11 @@
                                 },
                                 "bgColor": {
                                     "type": "array",
-                                    "desc": ""
+                                    "desc": "",
+                                    "items": {
+                                        "type": "undefined",
+                                        "desc": ""
+                                    }
                                 },
                                 "textColor": {
                                     "type": "array",
@@ -5370,7 +5418,11 @@
                                 },
                                 "bgColor": {
                                     "type": "array",
-                                    "desc": ""
+                                    "desc": "",
+                                    "items": {
+                                        "type": "undefined",
+                                        "desc": ""
+                                    }
                                 },
                                 "textColor": {
                                     "type": "array",
@@ -6032,7 +6084,11 @@
                                 },
                                 "bgColor": {
                                     "type": "array",
-                                    "desc": ""
+                                    "desc": "",
+                                    "items": {
+                                        "type": "undefined",
+                                        "desc": ""
+                                    }
                                 },
                                 "textColor": {
                                     "type": "array",
@@ -6108,7 +6164,11 @@
                                 },
                                 "bgColor": {
                                     "type": "array",
-                                    "desc": ""
+                                    "desc": "",
+                                    "items": {
+                                        "type": "undefined",
+                                        "desc": ""
+                                    }
                                 },
                                 "textColor": {
                                     "type": "array",
@@ -6184,7 +6244,11 @@
                         },
                         "rightViews": {
                             "type": "array",
-                            "desc": ""
+                            "desc": "",
+                            "items": {
+                                "type": "undefined",
+                                "desc": ""
+                            }
                         }
                     }
                 },
@@ -6644,7 +6708,11 @@
                         },
                         "rightViews": {
                             "type": "array",
-                            "desc": ""
+                            "desc": "",
+                            "items": {
+                                "type": "undefined",
+                                "desc": ""
+                            }
                         }
                     }
                 },
@@ -6894,7 +6962,11 @@
                         },
                         "rightViews": {
                             "type": "array",
-                            "desc": ""
+                            "desc": "",
+                            "items": {
+                                "type": "undefined",
+                                "desc": ""
+                            }
                         }
                     }
                 }
@@ -6948,7 +7020,11 @@
                         },
                         "rightViews": {
                             "type": "array",
-                            "desc": ""
+                            "desc": "",
+                            "items": {
+                                "type": "undefined",
+                                "desc": ""
+                            }
                         }
                     }
                 }
@@ -7834,7 +7910,11 @@
                         },
                         "rightViews": {
                             "type": "array",
-                            "desc": ""
+                            "desc": "",
+                            "items": {
+                                "type": "undefined",
+                                "desc": ""
+                            }
                         }
                     }
                 },
@@ -7894,7 +7974,11 @@
                         },
                         "rightViews": {
                             "type": "array",
-                            "desc": ""
+                            "desc": "",
+                            "items": {
+                                "type": "undefined",
+                                "desc": ""
+                            }
                         }
                     }
                 },
@@ -8112,7 +8196,11 @@
                         },
                         "rightViews": {
                             "type": "array",
-                            "desc": ""
+                            "desc": "",
+                            "items": {
+                                "type": "undefined",
+                                "desc": ""
+                            }
                         }
                     }
                 },
@@ -8276,7 +8364,11 @@
                         },
                         "rightViews": {
                             "type": "array",
-                            "desc": ""
+                            "desc": "",
+                            "items": {
+                                "type": "undefined",
+                                "desc": ""
+                            }
                         }
                     }
                 },
@@ -9046,7 +9138,11 @@
                                         },
                                         "bgColor": {
                                             "type": "array",
-                                            "desc": ""
+                                            "desc": "",
+                                            "items": {
+                                                "type": "undefined",
+                                                "desc": ""
+                                            }
                                         },
                                         "fontSize": {
                                             "type": "string",
@@ -9730,7 +9826,11 @@
                         },
                         "rightViews": {
                             "type": "array",
-                            "desc": ""
+                            "desc": "",
+                            "items": {
+                                "type": "undefined",
+                                "desc": ""
+                            }
                         }
                     }
                 },
@@ -9888,11 +9988,19 @@
                     "properties": {
                         "leftViews": {
                             "type": "array",
-                            "desc": ""
+                            "desc": "",
+                            "items": {
+                                "type": "undefined",
+                                "desc": ""
+                            }
                         },
                         "rightViews": {
                             "type": "array",
-                            "desc": ""
+                            "desc": "",
+                            "items": {
+                                "type": "undefined",
+                                "desc": ""
+                            }
                         }
                     }
                 },
