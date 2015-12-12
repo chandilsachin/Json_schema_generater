@@ -16,13 +16,13 @@
 	</head>
 	<body>
 		
-		<form role="form" action="upload_file.php" method="get">
+		<form role="form" action="upload_file.php" method="post" enctype="multipart/form-data">
 			
 			<div class="container">
 				
 				<label  >New Json file :</label>
 				<input name="new_json" class=" top-margin form-control" type="file" id="file_new_json" value="Choose new json file" />
-				<button style="" class=" btn btn-default">
+				<button style="" class="btn btn-default">
 					Upload and generate
 				</button>
 			</div>

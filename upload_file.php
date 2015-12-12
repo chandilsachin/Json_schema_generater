@@ -1,16 +1,19 @@
 <?php
 include 'controller/jsonSchemaGen.php';
 
-$inFile = $_GET['new_json'];
-$file = fopen($inFile, 'r');
-$content = fread($file, filesize($inFile));
-fclose($file);
+function uploadFile($source, $target) {
+	$file = fopen($source["tmp_name"], 'r');
+	$content = fread($file, $source['size']);
+	fclose($file);
 
-$outFile = "schema/".$inFile;
-$outFile = fopen($outFile, "w");
-fwrite($outFile, $content);
-fclose($outFile);
+	$outFile = fopen($target, "w");
+	fwrite($outFile, $content);
+	fclose($outFile);
+	return $content;
+}
 
+$inFile = $_FILES['new_json'];
+$content = uploadFile($inFile, "schema/".$inFile['name']);
 // Generate Json Schema file
 $generater = new JsonSchemaGenerater(json_decode($content));
 $stringOutput = $generater -> indent($generater -> generate());
@@ -20,5 +23,5 @@ fwrite($out, $stringOutput);
 fclose($out);
 
 print "Uploaded!";
- header('Location: generateSchema.php?code=1');
- ?>
+header('Location: generateSchema.php?code=1');
+?>

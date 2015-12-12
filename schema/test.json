@@ -1,0 +1,385 @@
+{
+	"address": {
+		"streetAddress": "21 2nd Streetq",
+		"city": "New York"
+	},
+	"phoneNumber": [{
+		"location": "home",
+		"code": 44.4
+	}, {
+		"location": "home",
+		"code": 44.4
+	}],
+	"searchListBgColor": ["#DCDCDC",
+		"#DCDCDC",
+		"#BEBEBE",
+		"#BEBEBE"
+	],
+	"buttonsOnRows": [
+		[{
+			"numberOfColumns": 6,
+			"iconName": "home_toc_white",
+			"titleAlign": "left",
+			"imageAlign": "left",
+			"fontWeightBold": "true",
+			"title": "Inhaltsverzeichnis",
+			"bgColor": ["#005292"],
+			"titleColor": ["#ffffff"],
+			"titleSize": "17",
+			"onClick": "TocViewController-->2",
+			"onClick_Android": {
+				"id": "#View",
+				"view": "1",
+				"Extra": ""
+			},
+			"fontFamily": "Helvetica",
+			"bgImg": "",
+			"iconLocation": "left",
+			"titleLocation": {
+				"standardStyle": false,
+				"bottomOfIcon": false
+			},
+			"roundedCorners": false
+		}],
+		[{
+			"numberOfColumns": 2,
+			"iconName": "home_custom_icon2",
+			"titleAlign": "left",
+			"imageAlign": "left",
+			"fontWeightBold": "false",
+			"title": "Hamilton 7-Punkte-<br> Depr. Skala",
+			"bgColor": ["#0593E2"],
+			"titleColor": ["#ffffff"],
+			"titleSize": "12",
+			"onClick": "TocViewController-->2",
+			"onClick_Android": {
+				"id": "#View",
+				"view": "9",
+				"Extra": "0#3#0#DEPH5036_1.5.0.0"
+			},
+			"fontFamily": "Helvetica",
+			"bgImg": "",
+			"iconLocation": "left",
+			"titleLocation": {
+				"standardStyle": false,
+				"bottomOfIcon": false
+			},
+			"roundedCorners": false
+		}, {
+			"numberOfColumns": 2,
+			"iconName": "home_custom_icon1",
+			"titleAlign": "left",
+			"imageAlign": "left",
+			"fontWeightBold": "false",
+			"title": "Wechsel-<br>Wirkungen",
+			"bgColor": ["#0593E2"],
+			"titleColor": ["#ffffff"],
+			"titleSize": "12",
+			"onClick": "TocViewController-->2",
+			"onClick_Android": {
+				"id": "#View",
+				"view": "9",
+				"Extra": "0#3#0#DEPH5036_4.2.0.0"
+			},
+			"fontFamily": "Helvetica",
+			"bgImg": "",
+			"iconLocation": "left",
+			"titleLocation": {
+				"standardStyle": false,
+				"bottomOfIcon": false
+			},
+			"roundedCorners": false
+		}, {
+			"numberOfColumns": 2,
+			"iconName": "home_custom_icon4",
+			"titleAlign": "left",
+			"imageAlign": "left",
+			"fontWeightBold": "false",
+			"title": "Innere Uhr Interaktiv",
+			"bgColor": ["#0593E2"],
+			"titleColor": ["#ffffff"],
+			"titleSize": "12",
+			"onClick": "TocViewController-->2",
+			"onClick_Android": {
+				"id": "#View",
+				"view": "1026",
+				"Extra": ""
+			},
+			"fontFamily": "Helvetica",
+			"bgImg": "",
+			"iconLocation": "left",
+			"titleLocation": {
+				"standardStyle": false,
+				"bottomOfIcon": false
+			},
+			"roundedCorners": false
+		}],
+		[{
+			"numberOfColumns": 2,
+			"iconName": "client_icon1",
+			"titleAlign": "center",
+			"imageAlign": "left",
+			"fontWeightBold": "false",
+			"title": "",
+			"bgColor": ["#FFFFFF"],
+			"titleColor": ["#005292"],
+			"titleSize": "12",
+			"onClick": "TocViewController-->2",
+			"onClick_Android": {
+				"id": "#View",
+				"view": "47",
+				"Extra": ""
+			},
+			"fontFamily": "Helvetica",
+			"bgImg": "",
+			"iconLocation": "left",
+			"titleLocation": {
+				"standardStyle": false,
+				"bottomOfIcon": false
+			},
+			"roundedCorners": false
+		}, {
+			"numberOfColumns": 2,
+			"iconName": "home_video_Black",
+			"titleAlign": "left",
+			"imageAlign": "left",
+			"fontWeightBold": "false",
+			"title": "Wie funktioniert Valdoxan?",
+			"bgColor": ["#FFFFFF"],
+			"titleColor": ["#005292"],
+			"titleSize": "12",
+			"onClick": "TocViewController-->2",
+			"onClick_Android": {
+				"id": "#View",
+				"view": "21",
+				"Extra": "1.mp4"
+			},
+			"fontFamily": "Helvetica",
+			"bgImg": "",
+			"iconLocation": "left",
+			"titleLocation": {
+				"standardStyle": false,
+				"bottomOfIcon": false
+			},
+			"roundedCorners": false
+		}, {
+			"numberOfColumns": 2,
+			"iconName": "client_icon2",
+			"titleAlign": "center",
+			"imageAlign": "left",
+			"fontWeightBold": "false",
+			"title": "",
+			"bgColor": ["#FFFFFF"],
+			"titleColor": ["#005292"],
+			"titleSize": "12",
+			"onClick": "TocViewController-->2",
+			"onClick_Android": {
+				"id": "#View",
+				"view": "10006",
+				"Extra": "jai#http://depression.servier.de/literatursonderdrucke"
+			},
+			"fontFamily": "Helvetica",
+			"bgImg": "",
+			"iconLocation": "left",
+			"titleLocation": {
+				"standardStyle": false,
+				"bottomOfIcon": false
+			},
+			"roundedCorners": false
+		}],
+		[{
+			"numberOfColumns": 2,
+			"iconName": "home_custom_icon3",
+			"titleAlign": "left",
+			"imageAlign": "left",
+			"fontWeightBold": "false",
+			"title": "Referenzen",
+			"bgColor": ["#005292"],
+			"titleColor": ["#FFFFFF"],
+			"titleSize": "11",
+			"onClick": "TocViewController-->2",
+			"onClick_Android": {
+				"id": "#View",
+				"view": "9",
+				"Extra": "0#3#0#DEPH5036_6.0.0.0"
+			},
+			"fontFamily": "Helvetica",
+			"bgImg": "",
+			"iconLocation": "left",
+			"titleLocation": {
+				"standardStyle": false,
+				"bottomOfIcon": false
+			},
+			"roundedCorners": false
+		}, {
+			"numberOfColumns": 2,
+			"iconName": "home_userGuide_white",
+			"titleAlign": "left",
+			"imageAlign": "left",
+			"fontWeightBold": "false",
+			"title": "Benutzung",
+			"bgColor": ["#005292"],
+			"titleColor": ["#FFFFFF"],
+			"titleSize": "11",
+			"onClick": "TocViewController-->2",
+			"onClick_Android": {
+				"id": "#View",
+				"view": "16",
+				"Extra": ""
+			},
+			"fontFamily": "Helvetica",
+			"bgImg": "",
+			"iconLocation": "left",
+			"titleLocation": {
+				"standardStyle": false,
+				"bottomOfIcon": false
+			},
+			"roundedCorners": false
+		}, {
+			"title": "CNS Chronicle",
+			"iconName": "home_news_white",
+			"fontWeightBold": "false",
+			"titleAlign": "left",
+			"imageAlign": "left",
+			"bgColor": ["#005292"],
+			"titleColor": ["#FFFFFF"],
+			"titleSize": 11,
+			"numberOfColumns": 2,
+			"onClick": "Rate-->1000",
+			"onClick_Android": {
+				"id": "#View",
+				"view": "8",
+				"Extra": ""
+			},
+			"fontFamily": "Helvetica",
+			"bgImg": "",
+			"iconLocation": "left",
+			"titleLocation": {
+				"standardStyle": true,
+				"bottomOfIcon": false
+			},
+			"roundedCorners": false
+		}],
+		[{
+			"numberOfColumns": 1,
+			"iconName": "home_feedback_white",
+			"titleAlign": "left",
+			"imageAlign": "center",
+			"fontWeightBold": "false",
+			"title": "",
+			"bgColor": ["#005292"],
+			"titleColor": ["#FFFFFF"],
+			"titleSize": "12",
+			"onClick": "TocViewController-->2",
+			"onClick_Android": {
+				"id": "#dropDownView",
+				"view": "1000",
+				"Extra": ""
+			},
+			"fontFamily": "Helvetica",
+			"bgImg": "",
+			"iconLocation": "left",
+			"titleLocation": {
+				"standardStyle": false,
+				"bottomOfIcon": false
+			},
+			"roundedCorners": false
+		}, {
+			"numberOfColumns": 1,
+			"title": "",
+			"iconName": "home_tellafriend_white",
+			"fontWeightBold": "false",
+			"titleAlign": "left",
+			"imageAlign": "center",
+			"bgColor": ["#005292"],
+			"titleColor": ["#FFFFFF"],
+			"titleSize": 12,
+			"onClick": "Imprint-->11",
+			"onClick_Android": {
+				"id": "#View",
+				"view": "1001",
+				"Extra": ""
+			},
+			"fontFamily": "Helvetica",
+			"bgImg": "",
+			"iconLocation": "left",
+			"titleLocation": {
+				"standardStyle": true,
+				"bottomOfIcon": false
+			},
+			"roundedCorners": false
+		}, {
+			"numberOfColumns": 1,
+			"title": "",
+			"iconName": "home_rate_white",
+			"fontWeightBold": "false",
+			"titleAlign": "left",
+			"imageAlign": "center",
+			"bgColor": ["#005292"],
+			"titleColor": ["#FFFFFF"],
+			"titleSize": 12,
+			"onClick": "Imprint-->11",
+			"onClick_Android": {
+				"id": "#View",
+				"view": "1002",
+				"Extra": ""
+			},
+			"fontFamily": "Helvetica",
+			"bgImg": "",
+			"iconLocation": "left",
+			"titleLocation": {
+				"standardStyle": true,
+				"bottomOfIcon": false
+			},
+			"roundedCorners": false
+		}, {
+			"numberOfColumns": 1,
+			"title": "",
+			"iconName": "home_imprint_white",
+			"fontWeightBold": "false",
+			"titleAlign": "left",
+			"imageAlign": "center",
+			"bgColor": ["#005292"],
+			"titleColor": ["#FFFFFF"],
+			"titleSize": 12,
+			"onClick": "iCloudViewController-->19",
+			"onClick_Android": {
+				"id": "#View",
+				"view": "19",
+				"Extra": ""
+			},
+			"fontFamily": "Helvetica",
+			"bgImg": "",
+			"iconLocation": "left",
+			"titleLocation": {
+				"standardStyle": true,
+				"bottomOfIcon": false
+			},
+			"roundedCorners": false
+		}, {
+			"numberOfColumns": 2,
+			"title": "Zuletzt geÃ¶ffnet",
+			"iconName": "home_lastview_white",
+			"fontWeightBold": "false",
+			"titleAlign": "left",
+			"imageAlign": "left",
+			"bgColor": ["#0593E2"],
+			"titleColor": ["#FFFFFF"],
+			"titleSize": 12,
+			"onClick": "UserGuideViewController-->15",
+			"fontFamily": "Helvetica",
+			"bgImg": "",
+			"iconLocation": "left",
+			"titleLocation": {
+				"standardStyle": true,
+				"bottomOfIcon": false
+			},
+			"roundedCorners": false,
+			"onClick_Android": {
+				"id": "#LastView",
+				"view": "101",
+				"Extra": ""
+			}
+		}]
+	]
+}
