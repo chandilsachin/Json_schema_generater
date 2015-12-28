@@ -1,11 +1,7 @@
 <?php
+include_once('controller/util.io.php');
 $fileName = "schema/jsonSchema.json";
-function readFileContent($fileName) {
-	$file = fopen($fileName, "r");
-	$content = fread($file, filesize($fileName));
-	fclose($file);
-	return $content;
-}
+
 
 $content = readFileContent($fileName);
 $jsonInput = json_decode($content, true);
@@ -139,6 +135,7 @@ class FormGenerater {
 		// echo "problem is here $label";
 		if ($label != null)
 			$label = "<label>$label:</label>";
+		if(count($value))
 		return "<div class=''>
 			$label
 			<input style='display: inline-block;' class='form-control' type='text' placeholder='$placeHolder' value='$value' />
